@@ -1,0 +1,74 @@
+.game {
+  margin: 20px auto 0;
+  width: 100%;
+  max-width: 56rem;
+  border: 1px solid rgb(51 65 85);
+  border-radius: 1.5rem;
+  background: rgb(15 23 42);
+  padding: 2rem;
+  color: #fff;
+}
+
+.game h1 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.board_row {
+  display: flex;
+  gap: 10px;
+}
+
+.cell {
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+  border: 1px solid rgb(71 85 105);
+  text-align: center;
+  font-size: 42px;
+  font-weight: 800;
+  background: rgb(30 41 59);
+  color: #fff;
+}
+
+.cell:disabled {
+  cursor: default;
+  opacity: 1;
+}
+
+.cell_x {
+  color: #f97316;
+}
+
+.cell_o {
+  color: #22c55e;
+}
+
+.game p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.game .reset {
+  margin-top: 1rem;
+  min-width: 200px;
+  border: 0;
+  border-radius: 0.5rem;
+  background: rgb(5 150 105);
+  color: #fff;
+  padding: 0.6rem 1rem;
+  font-weight: 700;
+}
+
+.game .reset:hover {
+  filter: brightness(1.05);
+}

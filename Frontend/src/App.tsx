@@ -2,7 +2,7 @@ import type { ReactElement } from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import Login from './components/Login'
 import Home from './components/Home'
-import TicTacToe from './components/tic-tac-toe'
+import TicTacToe from './components/tic-tac-toe/tic-tac-toe'
 
 const isAuthenticated = () => localStorage.getItem('isAuthenticated') === 'true'
 
