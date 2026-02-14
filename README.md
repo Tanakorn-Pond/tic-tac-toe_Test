@@ -2,6 +2,8 @@
 
 link: https://tic-tac-toe-test-frontend.onrender.com
 
+Deploy ผ่าน Render
+
 ## ฟีเจอร์หลัก (Features)
 
 - **Authentication System**: ระบบสมัครสมาชิกและเข้าสู่ระบบ (Login/Register)
@@ -33,12 +35,4 @@ npm start
 cd Frontend
 npm install
 npm run dev
-```
-
-
-### 2. Setup Backend
-```bash
-cd backend
-npm install
-npm start
 ```
