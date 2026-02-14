@@ -64,35 +64,6 @@ function Home() {
             เล่นกับบอท
           </button>
         </div>
-
-        {/* 2.) สร้างห้อง */}
-        <div className="flex flex-col justify-between rounded-2xl border border-slate-700/50 bg-slate-900/60 p-6 shadow-lg backdrop-blur-sm transition hover:border-purple-500/50 hover:bg-slate-900/80">
-          <div>
-            <h2 className="text-xl font-bold text-white">สร้างห้อง</h2>
-          </div>
-          <button
-            onClick={() => navigate("/bot-room")}
-            className="mt-6 w-full rounded-xl border border-slate-600 bg-transparent px-4 py-3 font-bold text-slate-300 transition hover:bg-slate-800 hover:text-white"
-          >
-            สร้างห้อง
-          </button>
-        </div>
-
-        {/* 3.) Join ห้อง */}
-        <div className="flex flex-col justify-between rounded-2xl border border-slate-700/50 bg-slate-900/60 p-6 shadow-lg backdrop-blur-sm transition hover:border-purple-500/50 hover:bg-slate-900/80">
-          <div>
-            <h2 className="text-xl font-bold text-white">เข้าร่วมห้อง</h2>
-          </div>
-          <div className="mt-5 rounded-2xl border border-slate-500/50 bg-slate-800/50 p-3 shadow-lg backdrop-blur-sm transition hover:border-green-500/50 hover:bg-slate-900/80">
-            <input type="text" placeholder="Room code" className="w-full bg-transparent text-white placeholder-slate-400 focus:outline-none"/>
-          </div>
-          <button
-            onClick={() => navigate("/join-room")}
-            className="mt-6 w-full rounded-xl border border-slate-600 bg-transparent px-4 py-3 font-bold text-slate-300 transition hover:bg-slate-800 hover:text-white"
-          >
-            เข้าร่วมห้อง
-          </button>
-        </div>
       </section>
     </main>
   );
